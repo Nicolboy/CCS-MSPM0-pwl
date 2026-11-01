@@ -1,8 +1,8 @@
-# PWL 3.5 — alimentation fantôme 48 V sur batterie, MSPM0C1104
+# PWL 3.5 - 4.1 — alimentation fantôme 48 V sur batterie, MSPM0C1104
 
 Portage sur MSPM0 du firmware d'alimentation fantôme écrit pour MSP430.
 Même fonction, autre architecture : Cortex-M0+ à la place du MSP430, en
-VSSOP-20.
+VSSOP-20. En production depuis 2025.
 
 Version d'origine → [**CCS-MSP430-pwl**](https://github.com/Nicolboy/CCS-MSP430-pwl).
 
@@ -52,8 +52,7 @@ plusieurs seuils puis veille.
   <img src="docs/mesure-V4.png" alt="Diagramme de Bode mesure (WaveForms Network Analyzer), gain et phase de 10 Hz a 500 kHz" width="700px">
 </p>
 
-Relevé au WaveForms Network Analyzer, 10 Hz – 500 kHz : gain stable autour
-de 10 dB entre ~20 Hz et ~100 kHz, chute au-delà.
+Relevé au WaveForms Network Analyzer, 10 Hz – 500 kHz : gain stable - +/-3dB dB entre ~20 Hz et ~100 kHz, chute au-delà.
 
 ---
 
