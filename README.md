@@ -6,6 +6,10 @@ VSSOP-20.
 
 Version d'origine → [**CCS-MSP430-pwl**](https://github.com/Nicolboy/CCS-MSP430-pwl).
 
+<p align="center">
+  <img src="docs/carte-PWL.png" alt="Carte PWL MSPM0C1104, support pile et face composants" width="700px">
+</p>
+
 ---
 
 ## Le portage
@@ -39,6 +43,17 @@ trop cher sur un composant de cette taille.
 Identique à la version MSP430 : élévation vers 48 V par DC/DC polyphasé,
 surveillance ADC multivoies, étalonnage en flash, protection de batterie à
 plusieurs seuils puis veille.
+
+---
+
+## Réponse en fréquence mesurée
+
+<p align="center">
+  <img src="docs/mesure-V4.png" alt="Diagramme de Bode mesure (WaveForms Network Analyzer), gain et phase de 10 Hz a 500 kHz" width="700px">
+</p>
+
+Relevé au WaveForms Network Analyzer, 10 Hz – 500 kHz : gain stable autour
+de 10 dB entre ~20 Hz et ~100 kHz, chute au-delà.
 
 ---
 
