@@ -52,7 +52,7 @@ plusieurs seuils puis veille.
   <img src="docs/mesure-V4.png" alt="Diagramme de Bode mesure (WaveForms Network Analyzer), gain et phase de 10 Hz a 500 kHz" width="700px">
 </p>
 
-Relevé au WaveForms Network Analyzer, 10 Hz – 500 kHz : gain stable - +/-3dB dB entre ~20 Hz et ~100 kHz, chute au-delà.
+Relevé au WaveForms Network Analyzer, 10 Hz – 500 kHz : gain stable - +/-3dB dB entre ~20 Hz et ~100 kHz, atténuation à -18dB/oct au-delà de 100kHz.
 
 ---
 
